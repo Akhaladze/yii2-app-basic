@@ -12,7 +12,7 @@ jobs:
       extensions: dom, json, gd, imagick
       key: cache-v1
 
-    runs-on: ${{ matrix.os }}
+    runs-on: self-hosted
 
     strategy:
       matrix:
